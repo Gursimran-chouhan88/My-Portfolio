@@ -4,6 +4,7 @@ import  './index.css';
 import LoadingScreen from './components/LoadingScreen';
 import Navbar from './components/Navbar';
 import MobileMenu from './components/MobileMenu';
+import Home from './components/sections/home';
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         >
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+          <Home/>
         </div>
     </>
   )
