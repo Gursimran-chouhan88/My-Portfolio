@@ -23,9 +23,9 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              I am an MCA graduate and adaptable Full-Stack Developer with a robust foundation in the MERN stack (MongoDB, Express.js, React.js, Node.js) and Java. My unique career path blends technical development with hands-on team leadership and operations management. Having worked both as a full-stack engineer and an operational supervisor at major supply-chain networks like Delhivery, I excel at bridging the gap between digital systems and real-world execution.
             </p>
+            <p>I thrive on solving complex logic problems, optimizing database performance, and building clean, responsive user interfaces. My experience managing on-the-floor teams and leading daily operations has sharpened my communication, debugging under pressure, and cross-functional collaboration skills. I am currently seeking full-time development or software engineering opportunities where I can leverage my tech stack and leadership background to build scalable, high-impact products.</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -62,13 +62,13 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+        { /* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong> MCA in Computer Science </strong> - Dr IT Group of Institutes, Banur
-                  (2022-2024)
+                  (2023-2025)
                 </li>
                 <li>
                   <strong> BCA in Computer Science </strong> - Punjab Institute of Technology, Rajpura
@@ -102,9 +102,9 @@ export const About = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
      
-    </section>
+    </section> 
   );
 };

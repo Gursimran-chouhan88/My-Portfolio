@@ -13,7 +13,7 @@ const Navbar = ({menuOpen,setMenuOpen}) => {
               <div className="max-w-5xl mx-auto px-4">
                 <div className="flex items-center justify-between h-16"> 
                    <a href="#home" className="font-mono text-xl font-bold text-white">
-                      Gursimran <span className="text-blue-500">portfolio</span>
+                      Gursimran <span className="text-blue-500">Portfolio</span>
                    </a>
                     
                     <div className="h-5 w-7 relative cursor-pointer z-40 md:hidden" onClick={()=>setMenuOpen(!menuOpen)}>
