@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import Navbar from "./Navbar";
+import {FaLinkedin,FaGithub} from "react-icons/fa";
+
 
 const  MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -68,6 +70,10 @@ const  MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         Contact
       </a>
+      <div className="flex items-center space-x-3">
+                                  <a href="https://github.com/Gursimran-chouhan88" target="_blank"  className="text-gray-300 hover:text-white transition-colors"><FaGithub/></a>
+                              <a href="https://www.linkedin.com/in/gursimranjeet-singh" target="_blank" className="text-gray-300 hover:text-white transition-colors"><FaLinkedin/></a>
+       </div>
     </div>
   );
 };

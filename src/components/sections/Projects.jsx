@@ -61,7 +61,7 @@ export const Projects = () => {
           </div>
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <h3 className="text-xl font-bold mb-2">E-mart Lending page</h3>
-            <p className="text-gray-400 mb-4">
+            <div className="text-gray-400 mb-4">
               <b>Project Overview:</b>  Developed a dynamic and 
 responsive E-commerce platform, E-mart, 
 focused on providing an engaging and seamless 
@@ -81,7 +81,7 @@ optimized the platform for various devices
 and screen sizes </li>
                 
              </ul>
-            </p>
+            </div>
             <div className="flex flex-wrap gap-2 mb-4">
               {[ "HTML","CSS", "JavaScript","Bootstrap", "Git"].map((tech, key) => (
                 <span
